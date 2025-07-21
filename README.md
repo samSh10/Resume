@@ -70,7 +70,6 @@ I'm a passionate developer with hands-on experience in **AI/ML**, **IoT systems*
 ## 📫 Let's Connect
 - 💼 [LinkedIn](https://www.linkedin.com/in/sambhav-shrivastava-079a17289)  
 - 📧 sambhav1034@gmail.com  
-- Email: sambhav1034@gmail.com  
 
 ---
 
