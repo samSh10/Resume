@@ -69,9 +69,8 @@ I'm a passionate developer with hands-on experience in **AI/ML**, **IoT systems*
 
 ## 📫 Let's Connect
 
-- LinkedIn: [linkedin.com/in/sambhavshrivastava](https://www.linkedin.com/in/sambhavshrivastava)  
-- Email: sambhavshrivastava1034@gmail.com  
-- Resume: [View on GitHub](./Sambhav_Shrivastava_Resume.pdf)
+- LinkedIn: [linkedin.com/in/sambhavshrivastava](www.linkedin.com/in/sambhav-shrivastava-079a17289)  
+- Email: sambhav1034@gmail.com  
 
 ---
 
