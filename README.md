@@ -11,10 +11,13 @@ I'm a passionate developer with hands-on experience in **AI/ML**, **IoT systems*
 - **SkilLink** – A professional networking platform to connect students, educators, and researchers.  
   _React | Firebase | Node.js_
 
-- **IoT-based Remote Patient Monitoring** – Monitored vitals in real-time using **ESP32**, simulated data streams, and secure transmission.  
+- **IoT-based Remote Patient Monitoring** – Monitored vitals in real time using **ESP32**, simulated data streams, and secure transmission.  
   _ESP32 | Arduino | MQTT | Firebase_
 
-## I'm Currently working on:-
+---
+
+## 🛠️ I'm Currently Working On
+
 - **Voice-Enabled AI Companion** – Built a smart assistant using ChatGPT APIs and ESP32, designed for continuous voice interaction.  
   _ESP32 | Python | Speech Recognition | OpenAI API_
 
@@ -47,7 +50,8 @@ I'm a passionate developer with hands-on experience in **AI/ML**, **IoT systems*
 ### 🧠 Machine Learning & AI  
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)  
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)  
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)  
+![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=white)
 
 ### 🌐 Web & App Development  
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)  
@@ -57,19 +61,22 @@ I'm a passionate developer with hands-on experience in **AI/ML**, **IoT systems*
 ### 📡 IoT & Embedded  
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)  
 ![ESP32](https://img.shields.io/badge/ESP32-3C3C3C?style=for-the-badge&logo=espressif&logoColor=white)  
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=data:image/svg+xml;base64,...)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=emqtt&logoColor=white)
 
 ### 🔧 Tools & Platforms  
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)  
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)  
-![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)  
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)  
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)  
+![PowerPoint](https://img.shields.io/badge/PowerPoint-D24726?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white)  
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 ---
 
 ## 📫 Let's Connect
 - 💼 [LinkedIn](https://www.linkedin.com/in/sambhav-shrivastava-079a17289)  
 - 📧 sambhav1034@gmail.com  
+- 📂 [GitHub](https://github.com/samSh10)
 
 ---
 
