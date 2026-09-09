@@ -1,0 +1,233 @@
+\documentclass[10pt,a4paper]{article}
+
+% --------------------------------------------------
+% Packages
+% --------------------------------------------------
+
+\usepackage[
+    left=0.6in,
+    right=0.6in,
+    top=0.45in,
+    bottom=0.45in
+]{geometry}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{helvet}
+\usepackage{enumitem}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% --------------------------------------------------
+% Hyperlinks
+% --------------------------------------------------
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=black,
+    pdfborder={0 0 0}
+}
+
+% --------------------------------------------------
+% Section Formatting
+% --------------------------------------------------
+
+\titleformat{\section}
+{\large\bfseries}
+{}{0em}{}
+[\titlerule]
+
+\titlespacing{\section}{0pt}{6pt}{4pt}
+
+% --------------------------------------------------
+% Document
+% --------------------------------------------------
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Header
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+
+{\Large\bfseries Sambhav Shrivastava}
+
+\vspace{2pt}
+
+Delhi, India \;|\;
+\href{mailto:sambhav1034@gmail.com}{sambhav1034@gmail.com}
+\;|\;
+\href{https://www.linkedin.com/in/sambhav-shrivastava-079a17289}{LinkedIn}
+\;|\;
+\href{https://github.com/samSh10}{GitHub}
+
+\end{center}
+
+\vspace{-8pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{EDUCATION}
+
+\textbf{Vellore Institute of Technology, Bhopal}
+\hfill
+\textbf{2023--2027}
+
+\\[-2pt]
+
+B.Tech, Computer Science and Engineering
+\hfill
+CGPA: 8.85
+
+\vspace{4pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Technical Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{TECHNICAL SKILLS}
+
+\textbf{Languages:} Python, SQL
+
+\vspace{2pt}
+
+\textbf{Frameworks/Libraries:} Flask, SQLAlchemy, Sentence Transformers
+
+\vspace{2pt}
+
+\textbf{Databases/Vector Stores:} SQLite, MySQL, FAISS
+
+\vspace{2pt}
+
+\textbf{AI/ML:} Machine Learning, Deep Learning, Retrieval-Augmented Generation (RAG), Semantic Search
+
+\vspace{2pt}
+
+\textbf{LLMs/APIs:} Google Gemini
+
+\vspace{2pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{EXPERIENCE}
+
+\textbf{Deep Learning Intern}
+\hfill
+\textbf{June 2026 -- Present}
+
+\\[-2pt]
+
+Palanam Technology
+\hfill
+Delhi, India (Remote)
+
+\begin{itemize}[leftmargin=15pt,itemsep=1pt,topsep=1pt,parsep=0pt,partopsep=0pt]
+
+\item Assisting with the development and evaluation of machine learning pipelines for automated manipulated-media analysis.
+
+\item Working with benchmark datasets including \textbf{FaceForensics++} and \textbf{Celeb-DF} for dataset preparation, experimentation, and evaluation of deepfake detection approaches.
+
+\item Contributing to \textbf{deepfake detection} workflows, focusing on data preparation and analysis of manipulated image and video content.
+
+\end{itemize}
+
+\vspace{2pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{PROJECTS}
+
+\textbf{Employee Attrition Prediction \& Workforce Analytics} \hfill Python | Pandas | Scikit-learn
+
+\textit{Machine Learning \& Workforce Analytics}
+
+\begin{itemize}[leftmargin=15pt,itemsep=1pt,topsep=1pt,parsep=0pt,partopsep=0pt]
+
+\item Developed an end-to-end employee attrition prediction pipeline covering \textbf{EDA, preprocessing, feature preparation, class-imbalance analysis, and stratified 5-fold cross-validation}.
+
+\item Compared \textbf{Logistic Regression, Decision Tree, and Random Forest} models; selected Logistic Regression with \textbf{0.839 ROC-AUC and 0.561 F1-score} on the held-out test set based on overall validation performance.
+
+\item Performed \textbf{hyperparameter tuning and prediction-threshold analysis}, then interpreted model coefficients to identify attrition-associated factors including \textbf{overtime, business travel, job role, satisfaction, and employee tenure}, translating findings into workforce retention recommendations.
+
+\end{itemize}
+
+\vspace{2pt}
+
+\textbf{TREKit} \hfill Flask | SQLAlchemy | SQLite
+
+\textit{Role-Based Trek Management Platform}
+
+\begin{itemize}[leftmargin=15pt,itemsep=1pt,topsep=1pt,parsep=0pt,partopsep=0pt]
+
+\item Engineered a role-based web application using \textbf{Flask}, \textbf{SQLAlchemy}, and \textbf{SQLite} to manage trekking events, participant registrations, and administrative workflows.
+
+\item Implemented secure \textbf{authentication, authorization, and role-based access control} for administrators, trek staff, and trekkers.
+
+\item Designed a normalized relational database with structured models for \textbf{users, treks, registrations, approvals}, ensuring data consistency across application workflows.
+
+\item Developed trek creation, registration, approval, and management workflows for different user roles using \textbf{Flask routes, Jinja2 templates, and SQLAlchemy ORM}.
+
+\item Implemented database migrations and programmatic schema management using \textbf{Flask-Migrate} and \textbf{Alembic}.
+
+\end{itemize}
+
+\vspace{2pt}
+
+\textbf{InsightRAG} \hfill Python | LangChain | FAISS | Sentence Transformers | Gemini | Streamlit
+
+\textit{Deep Learning Knowledge Retrieval System using Retrieval-Augmented Generation}
+
+\begin{itemize}[leftmargin=15pt,itemsep=1pt,topsep=1pt,parsep=0pt,partopsep=0pt]
+
+\item Built a modular \textbf{RAG pipeline}, implementing PDF ingestion, recursive text chunking, semantic embeddings, FAISS-based retrieval, and context-grounded response generation.
+
+\item Implemented \textbf{Sentence Transformer} embeddings with a persistent \textbf{FAISS vector store} to perform semantic search across document chunks and retrieve relevant context for user queries.
+
+\item Developed an interactive \textbf{Streamlit} application integrating \textbf{Google Gemini} for LLM-based answer generation, with session-based conversation history and modular separation of retrieval, prompting, and generation components.
+
+\end{itemize}
+
+% ==================================================
+% Achievements
+% ==================================================
+
+\section*{Extracurricular Achievements}
+
+\begin{itemize}[leftmargin=*, itemsep=0pt, topsep=0pt, parsep=0pt, partopsep=0pt]
+
+    \item \textbf{Winner -- Adversarial Nibbler AI Prompting Hackathon}, organized by Google Crowdsource Community, VIT Bhopal.
+
+    \item \textbf{Featured on TED-Ed Student Talks} YouTube Channel for a student talk.
+
+    \item Led a team of \textbf{7 members} as Founding Video Lead at GDGC VIT Bhopal, increasing average video reach from \textbf{500 to 3,000--4,000 views}, with a peak of \textbf{60,000+ views}.
+
+    \item Helped organize an Institution's Innovation Council (IIC) event that attracted \textbf{130+ active participants}, setting a participation milestone for the club.
+
+    \item \textbf{International English Olympiad (IEO) Gold Medalist} with \textbf{2 School-Level Gold Medals}.
+
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Certifications
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{CERTIFICATIONS}
+
+\begin{itemize}[leftmargin=15pt,itemsep=2pt,topsep=2pt]
+
+\item MPOnline Advanced Software Development
+\item MPOnline AI/ML Internship Program
+\item IBM Generative AI Engineering Professional Certificate
+
+\end{itemize}
+\end{document}
